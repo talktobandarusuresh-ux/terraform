@@ -3,12 +3,12 @@ resource "aws_instance" "HelloWorld" {
   instance_type          = "t2.micro"
   vpc_security_group_ids = [aws_security_group.allow_all_terraform.id]
   tags = {
-    Name = "HelloWorld"
+    Name = "Terraform"
   }
 }
 
 resource "aws_security_group" "allow_all_terraform" {
-  name = "Allow-All-Terraform"
+  name = "Allow-All"
 
   ingress {
     from_port   = 0
