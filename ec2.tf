@@ -1,0 +1,31 @@
+resource "aws_instance" "HelloWorld" {
+  ami           = "ami-09c813fb71547fc4f"
+  instance_type = "t2.micro"
+
+  tags = {
+    Name = "HelloWorld"
+  }
+}
+
+resource "aws_security_group" "allow_all_terraform" {
+  name = "Allow-All-Terraform"
+
+  ingress {
+    from_port   = 0
+    to_port     = 0
+    protocol    = "-1"
+    cidr_blocks = ["0.0.0.0/0"]
+
+  }
+
+  egress {
+    from_port   = 0
+    to_port     = 0
+    protocol    = "-1"
+    cidr_blocks = ["0.0.0.0/0"]
+
+  }
+
+  tags = aws_instance.HelloWorld.tags
+
+}
