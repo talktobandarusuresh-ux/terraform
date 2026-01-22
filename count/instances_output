@@ -1,6 +1,6 @@
 [
   {
-    "ami" = "ami-09c813fb71547fc4f"
+    "ami" = "ami-0220d79f3f480ecf5"
     "arn" = "arn:aws:ec2:us-east-1:160885265516:instance/i-02379e5d6cd808021"
     "associate_public_ip_address" = true
     "availability_zone" = "us-east-1c"
@@ -130,7 +130,7 @@
     ])
   },
   {
-    "ami" = "ami-09c813fb71547fc4f"
+    "ami" = "ami-0220d79f3f480ecf5"
     "arn" = "arn:aws:ec2:us-east-1:160885265516:instance/i-062dd4fb8c3e1a558"
     "associate_public_ip_address" = true
     "availability_zone" = "us-east-1c"
@@ -260,7 +260,7 @@
     ])
   },
   {
-    "ami" = "ami-09c813fb71547fc4f"
+    "ami" = "ami-0220d79f3f480ecf5"
     "arn" = "arn:aws:ec2:us-east-1:160885265516:instance/i-076fc9f70c458be85"
     "associate_public_ip_address" = true
     "availability_zone" = "us-east-1c"
@@ -390,7 +390,7 @@
     ])
   },
   {
-    "ami" = "ami-09c813fb71547fc4f"
+    "ami" = "ami-0220d79f3f480ecf5"
     "arn" = "arn:aws:ec2:us-east-1:160885265516:instance/i-06abc48b9c15c0bf1"
     "associate_public_ip_address" = true
     "availability_zone" = "us-east-1c"
