@@ -1,11 +1,11 @@
 variable "instances" {
-    default = [ "mongodb", "redis", "mysql", "rabbitmq", "catalogue", "user", "cart", "shipping", "payment", "frontend" ]
+  default = ["mongodb", "redis", "mysql", "rabbitmq", "catalogue", "user", "cart", "shipping", "payment", "frontend"]
 }
 
 variable "zone_id" {
-    default = "Z0948150OFPSYTNVYZOY"
+  default = "Z00483002KQGHYINL2NKX"
 }
 
 variable "domain_name" {
-    default = "daws86s.fun"
+  default = "daws86s.fun"
 }
