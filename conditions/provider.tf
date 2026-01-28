@@ -7,7 +7,7 @@ terraform {
   }
   backend "s3" {
     bucket       = "remote-state-bandaru"
-    key          = "terraform-count"
+    key          = "terraform-conditions"
     region       = "us-east-1"
     use_lockfile = true
     encrypt      = true
