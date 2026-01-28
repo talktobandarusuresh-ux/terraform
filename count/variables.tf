@@ -7,5 +7,5 @@ variable "zone_id" {
 }
 
 variable "domain_name" {
-  default = "daws86s.fun"
+  default = "bandarusuresh.in"
 }
